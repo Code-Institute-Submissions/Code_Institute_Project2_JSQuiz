@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>The Virtual Excursionist -  Quiz</title>
+
+<body>
+  <nav class="border fixed split-nav">
+    <div class="nav-brand">
+      <h3 class="desktop"><a href="index.html">The Virtual Excursionist</a></h3>
+      <h3 class="mobile"><a href="index.html"> Virtual Excrs.</a></h3>
+    </div>
+    <div class="collapsible">
+      <input id="collapsible1" type="checkbox" name="collapsible1">
+      <button>
+        <label for="collapsible1">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+        </label>
+      </button>
+      <div class="collapsible-body">
+        <ul class="inline">
+          <li> <label class="aside" for="modal">About</label> </li>
+          <li> <label onclick="showScores()">END Quiz</label> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="row flex-center" id="main-row">
+    <div id="quiz">
+      <div class="row flex-center">
+        <button class="btn-block background-secondary top" id="progress">Question x of y</button>
+        <button class="btn-block background-warning top" id="quiz-time-left">Time left</button>
+      </div>
+  <p id="question" popover-bottom="Choose a Country!">Choose a Country!</p>
+  <div id="feedback"> </div>
+      <div class="buttons">
+        <button id="btn0"><span id="choice0"></span></button>
+        <button id="btn1"><span id="choice1"></span></button>
+        <button id="btn2"><span id="choice2"></span></button>
+        <button id="btn3"><span id="choice3"></span></button>
+      </div>
+</div>
+</div>
+<div id="targetElement"> </div>
+</div>
+<!-- Footer! -->
+      <footer id="footer">
+        <div class="row flex-center footer">
+    <p class="desktop">  @2019 Marcel Huesmann, created for Code Institute, all pictures by myself, unless stated otherwise. </p>
+    <p class="mobile"> @2019 Marcel Huesmann</p>
+      </footer>
+  </div>
+  <!-- Modals -->
+  <input class="modal-state" id="modal" type="checkbox">
+  <div class="modal">
+    <label class="modal-bg" for="modal"></label>
+    <div class="modal-body">
+      <label class="btn-close" for="modal">X</label>
+      <h4 class="modal-title">About</h4>
+      <h5 class="modal-subtitle">The Fineprint.</h5>
+      <p class="modal-text"><p> The project features random Images of Places, Buildings or Landscapes which are typical for their respective countries but with few exceptions no landmarks and challenges the User to guess the Country where it is located. </p>
+      <p> <a href="https://www.flaticon.com/authors/freepik" target=”_blank”>Country Icons made by Freepick from Flaticon </a> </p>
+      <p>Photo on start Menu by Dariusz Sankowski on Unsplash<p>
+        <p>Photo 1 to 7 from Unplash.<p>
+        <p>All the other Images are provided by myself</p>
+      <label for="modal-1">OK!</label>
+    </div>
+  </div>
+</body>
+</html>
+<!-- JS -->
+<script src="js/script.js"></script>
+<script id="marketing" type="text/html">
+<div class="card" style="width: 20rem;">
+  <img src="https://avatars0.githubusercontent.com/u/15244987?s=460&u=c1bb5fb4a1daf94a3f8d380a2660ac73e3d776c2&v=4" alt="My face...">
+<div class="wrapper">
+  <div class="card-body">
+    <h4 class="card-title"> <span class="badge">Github</span></h4>
+    <h5 class="card-subtitle">Do you like my little project ?</h5>
+    <p class="card-text">feel free to check and download the Code at my Github profile.</p>
+    <a href="https://github.com/MarcelHuesmann" target=”_blank”> <input type="button" class="btn-secondary" value="to Github"/</a> </figcaption>
+  </div>
+</div>
+</div>
+</script>
+</div>

@@ -1,0 +1,256 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+  <title>The Virtual Excursionist</title>
+<body>
+  <!-- NAV -->
+  <nav class="border fixed split-nav">
+    <div class="nav-brand">
+      <h3 class="desktop"><a href="index.html">The Virtual Excursionist</a></h3>
+      <h3 class="mobile"><a href="index.html"> Virtual Excrs.</a></h3>
+    </div>
+    <div class="collapsible">
+      <input id="collapsible1" type="checkbox" name="collapsible1">
+      <button>
+        <label for="collapsible1">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+        </label>
+      </button>
+      <div class="collapsible-body">
+        <ul class="inline">
+          <label class="aside" for="modal">About</label> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Table -->
+<div class="paper container">
+  <h1>Locations</h1>
+  <table>
+    <thead>
+      <tr>
+        <th class="background-primary">#</th>
+        <th class="background-success">Country</th>
+        <th class="background-success">Image</th>
+        <th class="background-success">Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="background-primary">1</td>
+          <td><img class="lazy" src="img/options/romania.webp" <figcaption><strong>Historic Centre of Sighişoara</strong> Founded by German craftsmen and merchants known as the Saxons of Transylvania, Sighişoara is a fine example of a small, fortified medieval town which played an important strategic and commercial role on the fringes of central Europe for several centuries.</figcaption></td>
+        <td><img class="lazy zoom" src="img/questions/1.jpg" </td>
+          <td><iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=sighi%C5%9Foara&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td>
+      </tr>
+      <tr>
+        <td class="background-primary">2</td>
+        <td><img class="lazy" src="img/options/montenegro.webp" <figcaption><strong>Natural and Culturo-Historical Region of Kotor</strong> In the Middle Ages, this natural harbour on the Adriatic coast in Montenegro was an important artistic and commercial centre with its own famous schools of masonry and iconography.</figcaption></td>
+        <td><img class="lazy zoom" src="img/questions/2.jpg"  </td>
+       <td><iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=kotor&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td>
+      </tr>
+      <tr>
+        <td class="background-primary">3</td>
+        <td><img class="img-lazy small" src="img/options/poland.webp" <figcaption><strong> Historic Centre of Kraków </strong>The Historic Centre of Kraków, the former capital of Poland, is situated at the foot of the Royal Wawel Castle. The 13th-century merchants' town has Europe's largest market square and numerous historical houses, palaces and churches with their magnificent interiors.</figcaption></td>
+        <td><img class="lazy zoom" src="img/questions/3.jpg"  </td>
+          <td><iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=krakow&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td>
+          <tr>
+            <td class="background-primary">4</td>
+            <td><img class="lazy" src="img/options/ukraine.webp" <figcaption><strong>L'viv – the Ensemble of the Historic Centre</strong> The city of L''viv, founded in the late Middle Ages, was a flourishing administrative, religious and commercial centre for several centuries.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/4.jpg"   </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=lviv&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td>
+          </tr>
+          <tr>
+            <td class="background-primary">5</td>
+            <td><img class="lazy" src="img/options/portugal.webp" <figcaption><strong>Cultural Landscape of Sintra</strong> In the 19th century Sintra became the first centre of European Romantic architecture. Ferdinand II turned a ruined monastery into a castle where this new sensitivity was displayed in the use of Gothic, Egyptian, Moorish and Renaissance elements and in the creation of a park blending local and exotic species of trees.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/5.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=sintra&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td>
+          </tr>
+          <tr>
+            <td class="background-primary">6</td>
+            <td><img class="lazy" src="img/options/ukraine.webp" <figcaption><strong>Residence of Bukovinian and Dalmatian Metropolitans</strong>The Residence of Bukovinian and Dalmatian Metropolitans represents a masterful synergy of architectural styles built by Czech architect Josef Hlavka from 1864 to 1882. The property, an outstanding example of 19th-century historicist architecture.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/6.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Chernivtsi%20University&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td>
+          </tr>
+          <tr>
+            <td class="background-primary">7</td>
+            <td><img class="lazy" src="img/options/macedonia.webp" <figcaption><strong>Natural and Cultural Heritage of the Ohrid region</strong> A superlative natural phenomenon, Lake Ohrid provides a refuge for numerous endemic species of freshwater fauna and flora dating from the Tertiary period. Situated on the shores of the lake, the town of Ohrid is one of the oldest human settlements in Europe.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/7.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=ohrid&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">8</td>
+            <td><img class="lazy" src="img/options/romania.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/8.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Bucecea&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">9</td>
+            <td><img class="lazy" src="img/options/montenegro.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/9.jpg"  </td>
+            <td><iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Sveti%20Stefan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">10</td>
+            <td><img class="lazy" src="img/options/poland.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/10.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Palace%20of%20Culture%20and%20Science&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">11</td>
+            <td><img class="lazy" src="img/options/ukraine.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/11.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=kolomea%20museum%20pysanka&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">12</td>
+            <td><img class="lazy" src="img/options/russia.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/12.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Basilius-Kathedrale&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">13</td>
+            <td><img class="lazy" src="img/options/lux.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/13.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Grund%20lux&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">14</td>
+            <td><img class="lazy" src="img/options/ukraine.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/14.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=hotel%20ukraine&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">15</td>
+            <td><img class="lazy" src="img/options/russia.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/15.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=%20WDNCh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">16</td>
+            <td><img class="lazy" src="img/options/romania.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/16.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=%20suceava&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">17</td>
+            <td><img class="lazy" src="img/options/bulgaria.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/17.webp"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=%20Vitoschka%20Street%20sofia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">18</td>
+            <td><img class="lazy" src="img/options/romania.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/18.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Leorda&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">19</td>
+            <td><img class="lazy" src="img/options/bulgaria.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/19.webp" </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=berkovitska&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">20</td>
+            <td><img class="lazy" src="img/options/ukraine.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/20.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Iwano-Frankiwsk)&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">21</td>
+            <td><img class="lazy" src="img/options/spain.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/21.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Corralejo&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">22</td>
+            <td><img class="lazy" src="img/options/UK.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/22.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=birmingham&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">23</td>
+            <td><img class="lazy" src="img/options/Moldova.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/23.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Comrat&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">24</td>
+            <td><img class="lazy" src="img/options/UK.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/24.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Siberia%20bar%20aberdeeen&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">25</td>
+            <td><img class="lazy" src="img/options/Moldova.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/25.jpeg" </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=tiraspol%20memorial&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">26</td>
+            <td><img class="lazy" src="img/options/portugal.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/26.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Sao%20Goncalo&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">27</td>
+            <td><img class="lazy" src="img/options/ireland.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/27.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=portrush&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">28</td>
+            <td><img class="lazy" src="img/options/poland.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/28.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=warsaw&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">29</td>
+            <td><img class="lazy" src="img/options/Moldova.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td> <img class="lazy zoom"  src="img/questions/29.jpeg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=tiraspol%20strada%20karl%20liebknecht&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+          <tr>
+            <td class="background-primary">30</td>
+            <td><img class="lazy" src="img/options/germany.webp" <figcaption><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</figcaption></td>
+            <td><img class="lazy zoom" src="img/questions/30.jpg"  </td>
+            <td> <iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=brocken&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></td> </td>
+          </tr>
+    </tbody>
+  </table>
+<p class="background-primary"> END</p>
+<!-- Footer! -->
+<footer>
+  <div class="row flex-center footer">
+<p class="desktop">  @2019 Marcel Huesmann, created for Code Institute, all pictures by myself, unless stated otherwise. </p>
+<p class="mobile"> @2019 Marcel Huesmann</p>
+</footer>
+</div>
+  <!-- Modals -->
+  <input class="modal-state" id="modal" type="checkbox">
+  <div class="modal">
+    <label class="modal-bg" for="modal"></label>
+    <div class="modal-body">
+      <label class="btn-close" for="modal">X</label>
+      <h4 class="modal-title">About</h4>
+      <h5 class="modal-subtitle">The Fineprint.</h5>
+      <p class="modal-text"><p> The project features random Images of Places, Buildings or Landscapes which are typical for their respective countries but with few exceptions no landmarks and challenges the User to guess the Country where it is located. </p>
+      <p> <a href="https://www.flaticon.com/authors/freepik" target=”_blank”>Country Icons made by Freepick from Flaticon </a> </p>
+      <p>Photo on start Menu by Dariusz Sankowski on Unsplash<p>
+        <p>Photo 1 to 7 from Unplash.<p>
+        <p>All the other Images are provided by myself</p>
+      <label for="modal-1">OK!</label>
+
+    </div>
+  </div>
+</body>
+<!-- JS! -->
+<script>
+$("img.lazy").lazyload({effect : "fadeIn"});
+</script>

@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>The Virtual Excursionist - Index</title>
+
+<body>
+  <nav class="border fixed split-nav">
+    <div class="nav-brand">
+      <h3 class="desktop"><a href="index.html">The Virtual Excursionist</a></h3>
+      <h3 class="mobile"><a href="index.html"> Virtual Excrs.</a></h3>
+    </div>
+    <div class="collapsible">
+      <input id="collapsible1" type="checkbox" name="collapsible1">
+      <button>
+        <label for="collapsible1">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+        </label>
+      </button>
+      <div class="collapsible-body">
+        <ul>
+        <label for="modal-1">About</label>
+      </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row flex-center " id="main-row">
+
+<div class="card menu" style="width: 30rem;">
+  <img src="img/misc/start.jpg" alt="Card example image">
+
+  <div class="card-body">
+      <div class="alert alert-primary">Welcome!</div>
+      <figcaption><strong>The Virtual Excursionist</strong> This Game features random Images of Places, Buildings or Landscapes which are typical for their respective countries but the Images are not limited to famous landmarks - It challenges you to guess the Country where it is located. <hr>
+<div class="wrapper">
+  <a href="quiz.html"> <input type="button" class="btn-secondary" value="Start Quiz"/</a>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Footer! -->
+<footer>
+  <div class="row flex-center footer">
+<p class="desktop">  @2019 Marcel Huesmann, created for Code Institute, all pictures by myself, unless stated otherwise. </p>
+<p class="mobile"> @2019 Marcel Huesmann</p>
+</div>
+</footer>
+
+<!-- Modals -->
+<input class="modal-state" id="modal-1" type="checkbox">
+<div class="modal">
+  <label class="modal-bg" for="modal-1"></label>
+  <div class="modal-body">
+    <label class="btn-close" for="modal-1" >X</label>
+    <h4 class="modal-title">About</h4>
+    <h5 class="modal-subtitle">The Fineprint.</h5>
+    <p class="modal-text"><p> The project features random Images of Places, Buildings or Landscapes which are typical for their respective countries but with few exceptions no landmarks and challenges the User to guess the Country where it is located. </p>
+    <p> <a href="https://www.flaticon.com/authors/freepik" target=”_blank”>Country Icons made by Freepick from Flaticon </a> </p>
+    <p>Photo on start Menu by Dariusz Sankowski on Unsplash<p>
+      <p>Photo 1 to 7 from Unplash.<p>
+      <p>All the other Images are provided by myself</p>
+  </div>
+</div>
+</body>
+</html>
+<!-- JS -->
+<script>
+  document.body.style.backgroundImage = "url('img/misc/bg.jpg')";
+</script>
