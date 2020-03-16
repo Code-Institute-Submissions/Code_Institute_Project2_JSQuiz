@@ -184,7 +184,7 @@ function showScores() {
 document.getElementById("quiz").innerHTML = message;
 
 var div = document.createElement('div');
-div.setAttribute('class', 'someClass');
+div.setAttribute('class', 'row flex-center');
 div.innerHTML = document.getElementById('marketing').innerHTML;
 document.getElementById('targetElement').appendChild(div);
 }
